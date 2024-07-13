@@ -1,0 +1,58 @@
+
+h4 {
+  font-size: 30px;
+  color: white;
+}
+.link{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.link2{
+  text-decoration: none;
+  color: aliceblue;
+}
+.link2:hover{
+  color: black;
+  border: 2px solid black;
+}
+.text {
+  margin-top: 57px;
+}
+.slider{
+  width: 50%;
+  height: 500px;
+  margin-left: 23%;
+  margin-bottom: 40px;
+
+}
+.images{
+  width: 40%;
+  height: 400px;
+  margin-left: 25%;
+  margin-bottom:50px
+}
+@media (max-width:750px) {
+  h4 {
+    font-size: 20px;
+  }
+  .images{
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    margin-bottom:10px
+  }
+
+  .about {
+    gap: 30px;
+    padding-top: 60px;
+  }
+  .text {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .h3text{
+    font-size: 20px;
+    width: auto;
+  }
+  
+}
